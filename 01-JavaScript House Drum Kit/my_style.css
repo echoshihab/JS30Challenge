@@ -1,0 +1,144 @@
+body {
+    background-color: #ffffff;
+    background-image: url('bckgrnd_img.jpg');
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Courier;
+
+}
+
+.main {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 40px;
+    grid-gap: 1em;
+    grid-template-areas:
+    ". . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . "
+    ". . . . a s d f g h j k l . . . "
+    ". . . . q w e r t y u i o . . . "
+    ". . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . ";
+
+
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+    padding: 25px 25px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 2px 4px;
+    transition: all .07s ease;
+
+
+}
+
+.pressed {
+    transform: scale(1.1);
+    box-shadow: none;
+    border-color: red;
+
+}
+
+.kick1 {
+    grid-area: a;
+}
+
+.kick2 {
+    grid-area: s;
+}
+
+.clap {
+    grid-area: d;
+}
+
+.hat {
+    grid-area: f;
+}
+
+.perc {
+    grid-area: g;
+}
+
+.cymb {
+    grid-area: h;
+}
+
+.shaker {
+    grid-area: j;
+}
+
+.snare {
+    grid-area: k;
+}
+
+.toms {
+    grid-area: l;
+}
+
+
+
+.sound {
+
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.sound1 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: q;
+}
+
+.sound2 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: w;
+}
+
+.sound3 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: e;
+}
+
+.sound4 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: r;
+}
+
+.sound5 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: t;
+}
+
+.sound6 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: y;
+}
+
+.sound7 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: u;
+}
+
+.sound8 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: i;
+}
+
+.sound9 {
+    font-size: 14px;
+    text-align: center;
+    grid-area: o;
+}
