@@ -1,0 +1,43 @@
+
+
+.clock {
+    margin-top: 20%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 40%;
+    position: absolute;
+
+
+
+}
+
+
+
+
+.hand {
+    color: black;
+    width: 120px;
+    background: black;
+    height: 6px;
+    display: flex;
+    position: absolute;
+    right:50%;
+    top: 50%;
+    transform: translateY(50%);
+    transform-origin: 100%;
+
+}
+
+.hour {
+    width: 80px;
+}
+
+.sec {
+    height: 3px;
+    transform: rotate(10deg);
+
+}
