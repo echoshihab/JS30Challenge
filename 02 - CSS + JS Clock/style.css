@@ -34,10 +34,14 @@
 
 .hour {
     width: 80px;
+
 }
 
 .sec {
     height: 3px;
-    transform: rotate(10deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.77, 1.17);
 
 }
+
+
