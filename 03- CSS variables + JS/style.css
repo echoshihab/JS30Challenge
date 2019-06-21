@@ -1,0 +1,39 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    --color: #697969;
+    --spacing: 5px;
+    --blur: 5px;
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 40px;
+}
+
+
+
+.controls {
+    display: grid;
+    grid-row-gap: 5px;
+    border: 1px solid black;
+    padding: 40px;
+    align-content: center;
+}
+
+
+
+.image {
+    height: 700px;
+    width: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: var(--color);
+}
+
+h1 {
+    color: var(--color);
+}
