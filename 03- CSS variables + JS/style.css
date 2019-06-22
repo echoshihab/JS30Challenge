@@ -1,7 +1,7 @@
-*{
+:root {
     font-family: 'Open Sans', sans-serif;
     --color: #697969;
-    --spacing: 5px;
+    --spacing: 10px;
     --blur: 5px;
 }
 
@@ -22,6 +22,7 @@
     border: 1px solid black;
     padding: 40px;
     align-content: center;
+
 }
 
 
@@ -30,8 +31,10 @@
     height: 700px;
     width: 350px;
     border: 1px solid black;
-    padding: 10px;
+    padding: var(--spacing);
     background-color: var(--color);
+    filter: blur(var(--blur));
+
 }
 
 h1 {
