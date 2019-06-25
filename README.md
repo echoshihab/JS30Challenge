@@ -10,3 +10,6 @@ Recreated starter files and solved the issue with clock hands rewinding to start
 
 # Day 3: CSS Variables + JS: Completed
 Recreated the starter files from scratch and solved the problem
+
+# Day 4: Array Cardio 1 : Completed
+I used the starteer files for this javascript only exercise.
