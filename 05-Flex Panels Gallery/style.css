@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    min-height: 100vh;
+    overflow: hidden;
+    display:flex;
+
+
+}
+
+.box  {
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    transition: flex 0.5s;
+
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: red;
+
+}
+
+.box3 {
+    background-color: coral;
+
+}
+
+.box4 {
+    background-color: teal;
+
+}
+
+.box5 {
+    background-color: gray;
+
+}
+
+
+.greetings {
+    color: white;
+    font-size: 40px;
+    transition: transform 0.5s;
+    transform: translateY(-60px) ;
+
+}
