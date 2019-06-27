@@ -13,3 +13,6 @@ Recreated the starter files from scratch and solved the problem
 
 # Day 4: Array Cardio 1 : Completed
 I used the starter files for this javascript only exercise.
+
+# Day 5: Flex Panels Gallery: Completed
+Recreated starter files (used background colors instead of images for panels)
