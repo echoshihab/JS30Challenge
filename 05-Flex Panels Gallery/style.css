@@ -22,6 +22,11 @@
 
 }
 
+
+.box > active {
+
+}
+
 .box1 {
     background-color: blue;
 }
@@ -51,6 +56,13 @@
     color: white;
     font-size: 40px;
     transition: transform 0.5s;
-    transform: translateY(-60px) ;
+    transform: translateY(-100%) ;
 
+}
+
+.fairwell {
+    color: white;
+    font-size: 40px;
+    transition: transform 0.5s;
+    transform: translateY(1600%) ;
 }
