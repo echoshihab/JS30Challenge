@@ -2,10 +2,17 @@ const boxes = document.querySelectorAll('.box');
 
 
 const updateBox = () => {
-    event.target.children[0].style.transform= 'translateY(0%)';
-    event.target.children[1].style.transform = 'translateY(1200%)';
-    event.target.style.flex = "5";
+    //increases/decreases panel/box size
+    event.target.classList.toggle('open');
+}
+
+const updateText = (e) => {
+    if (e.propertyName.includes('flex')) {
+        e.target.children[0].classList.toggle('active');
+        e.target.children[1].classList.toggle('active');
+    }
 }
 
 
 boxes.forEach(box => box.addEventListener("click", updateBox))
+boxes.forEach(box => box.addEventListener("transitionend", updateText))

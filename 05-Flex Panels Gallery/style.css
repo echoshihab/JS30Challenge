@@ -22,10 +22,15 @@
 
 }
 
-
-.box > active {
-
+.box.open {
+    flex: 5;
 }
+
+
+
+.greetings.active { transform: translateY(0%); }
+.fairwell.active  { transform: translateY(1200%);}
+
 
 .box1 {
     background-color: blue;
