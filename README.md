@@ -16,3 +16,7 @@ I used the starter files for this javascript only exercise.
 
 # Day 5: Flex Panels Gallery: Completed
 Recreated starter files (used background colors instead of images for panels)
+
+# Day 6: Ajax type ahead: Completed
+Completed this excercise with pokemon data instead. I used JSON data from - [Pokedex] (https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/pokedex.json) . Completed the exercise with slighltly modified logic since the data I used had nested arrays.
+

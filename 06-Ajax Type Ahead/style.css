@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    width: 20%;
+    height: 40px;
+
+}
+
+
+table,th,tr, td {
+    border: 1px solid goldenrod;
+}
