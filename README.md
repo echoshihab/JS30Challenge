@@ -22,3 +22,6 @@ Completed this excercise with pokemon data instead. I used JSON data from - [Pok
 
 # Day 7:Array Cardio 2: Completed
 Used the starter files for this javascript only exercise
+
+# Day 8: Fun with HTML5 Canvas: Completed
+Recreated starter files + solved the challenge
