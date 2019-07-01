@@ -25,3 +25,6 @@ Used the starter files for this javascript only exercise
 
 # Day 8: Fun with HTML5 Canvas: Completed
 Recreated starter files + solved the challenge
+
+# Day 9: Dev tools domination: Completed
+Followed along Wes Bos's video for this day and explored dev tools
