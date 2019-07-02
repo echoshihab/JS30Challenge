@@ -29,5 +29,5 @@ Recreated starter files + solved the challenge
 # Day 9: Dev tools domination: Completed
 Followed along Wes Bos's video for this day and explored dev tools
 
-# Day 10: Hold shift to select multimple checkboxes
+# Day 10: Hold shift to select multiple checkboxes
 Recreated starter files + solved the challenge
