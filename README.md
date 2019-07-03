@@ -30,4 +30,4 @@ Recreated starter files + solved the challenge
 Followed along Wes Bos's video for this day and explored dev tools
 
 # Day 10: Hold shift to select multiple checkboxes
-Recreated starter files + solved the challenge
+Recreated starter files + solved the challenge on my own first (mysolution.js). Worked through this solution again with Wes Bos's much cleaner solution (wbsolution.js)

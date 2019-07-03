@@ -1,0 +1,24 @@
+.video-controls {
+    display:none;
+    position: absolute;
+    transform: translateY(0);
+}
+
+.video-container:hover .video-controls {
+    display: block;
+    transform: translateY(-30px);
+    }
+
+.progress-bar {
+  border: 1px solid yellow;
+  height: 5px;
+  width: 100%;
+  transition: height 0.3s;
+  cursor: ew-resize;
+}
+
+.progress{
+    width:0%;
+    height: 5px;
+    background:yellow;
+}
