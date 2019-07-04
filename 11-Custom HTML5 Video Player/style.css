@@ -1,7 +1,12 @@
 .video-controls {
     display:none;
     position: absolute;
-    transform: translateY(0);
+    transform: translateY(0px);
+}
+
+.video-controls .progress-bar{
+    display:block;
+    transform: translateY(0px);
 }
 
 .video-container:hover .video-controls {

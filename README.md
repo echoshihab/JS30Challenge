@@ -31,3 +31,6 @@ Followed along Wes Bos's video for this day and explored dev tools
 
 # Day 10: Hold shift to select multiple checkboxes
 Recreated starter files + solved the challenge on my own first (mysolution.js). Worked through this solution again with Wes Bos's much cleaner solution (wbsolution.js)
+
+#Day 11: Custom HTML Video player
+Recreated starter files + Solved the challenge. Watched the video after and implemented the scrub function, refactored the slider logic and displaying play vs pause button.
