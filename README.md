@@ -34,3 +34,7 @@ Recreated starter files + solved the challenge on my own first (mysolution.js). 
 
 #Day 11: Custom HTML Video player
 Recreated starter files + Solved the challenge. Watched the video after and implemented the scrub function, refactored the slider logic and displaying play vs pause button.
+
+#Day 12: Key Sequence Detection
+Challenge solved!
+
