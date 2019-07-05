@@ -1,0 +1,25 @@
+html{
+    background: #592D2D;
+}
+
+.main{
+    width:50%;
+    margin: auto;
+    background: #C1B6B6;
+}
+
+.images{
+    transform:translateX(-100px);
+    opacity: 0;
+    float: left;
+    height: 400px;
+    width: 340px;
+    align-items: left;
+    transition: transform 0.5s;
+}
+
+
+.active {
+    transform: translateX(0px);
+    opacity: 1;
+}
