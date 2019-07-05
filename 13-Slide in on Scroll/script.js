@@ -15,10 +15,22 @@ function debounce(func, wait=50, immediate=true) {
 
 
 
-function scrollerProp(){
-    images.forEach(images = {
-        const slideInAt = window.scrollY + window.innerHeight);
-        console.log(slide)
+function scrollerProp(e){
+    images.forEach(image => {
+        //half way to image
+        const slideInAt = (window.scrollY + window.innerHeight) - (image.height/2);
+
+        //bottom of the image
+        const imageBottom = image.offsetTop + image.height;
+        const isHalfShown  = slideInAt > image.offsetTop;
+        const isNotScrolledPast = window.scrollY < imageBottom;
+
+        if (isHalfShown && isNotScrolledPast) {
+            image.classList.add('active');
+        }
+        else {
+            image.classList.remove('active');
+        }
     })
 }
 

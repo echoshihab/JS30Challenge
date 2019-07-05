@@ -38,3 +38,6 @@ Recreated starter files + Solved the challenge. Watched the video after and impl
 #Day 12: Key Sequence Detection
 Challenge solved!
 
+#Day 13: Slide in on the scroll
+Worked along with Wes Bos on this one. I found the debounce functions confusing, and found a good resource here
+https://john-dugan.com/javascript-debounce/ that gives a thorough explanation if anyone is interested.
