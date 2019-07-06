@@ -40,4 +40,7 @@ Challenge solved!
 
 #Day 13: Slide in on the scroll
 Worked along with Wes Bos on this one. I found the debounce functions confusing, and found a good resource here
-https://john-dugan.com/javascript-debounce/ that gives a thorough explanation if anyone is interested.
+https://john-dugan.com/javascript-debounce/ that gives a step by step breakdown of the debounce function.
+
+#Day 14: Object and Arrays - Reference vs Copy
+Worked along with Wes Bos, learned that copying an object is only one level deep, and learned the poor man's deep clone method
