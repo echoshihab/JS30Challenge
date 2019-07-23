@@ -3,8 +3,8 @@ const todo = document.querySelector(".todo");
 const ul = document.querySelector(".item-list");
 const items = JSON.parse(localStorage.getItem('items')) || [];
 const clear = document.querySelector(".clear");
-const check = document.querySelector(".check");
-const uncheck = document.querySelector(".uncheck");
+const toggleChecker = document.querySelector(".toggle-check");
+
 
 function addItem(e) {
     e.preventDefault();
@@ -39,13 +39,39 @@ function toggleDone(e) {
     populateList(items, ul);
 }
 
+//for toggling individual items to true or false to be used at toggleCheckerAll function
+function toggleDoneAll(item, checkerFlag) {
+    const index = item.dataset.index
+    items[index].done = checkerFlag;
+}
+
+
 function clearAll(e) {
     localStorage.removeItem('items');
     ul.innerHTML="";
 }
 
+let checkerFlag = false;
+
+//for toggling group of items to true or fall
+function toggleCheckerAll(e) {
+    checkerFlag = !checkerFlag
+    li_checkbox = [...document.querySelectorAll('input[type="checkbox"]')]
+    if (checkerFlag) {
+        toggleChecker.innerHTML = "Uncheck All"
+    } else {
+        toggleChecker.innerHTML = "Check All"
+    }
+    li_checkbox.map(item => toggleDoneAll(item, checkerFlag))
+    localStorage.setItem('items', JSON.stringify(items));
+    populateList(items,ul)
+
+}
+
 ul.addEventListener('click', toggleDone)
 todo.addEventListener('submit', addItem);
 clear.addEventListener('click', clearAll )
+toggleChecker.addEventListener('click', toggleCheckerAll )
+
 populateList(items, ul);
 
