@@ -1,28 +1,29 @@
-const h1 = document.querySelector('h1')
+const wrapper = document.querySelector('.wrapper');
+const h1 = document.querySelector('h1');
 
+const walk = 100;
 
 function mouseTracker(e) {
-    [x, y] = [e.offsetX, e.offsetY];
-    x = x - h1.offsetTop;
-    y = y - h1.offsetLeft;
+    const [wrapperWidth, wrapperHeight] = [wrapper.offsetWidth, wrapper.offsetHeight]
+    let [x, y] = [e.offsetX, e.offsetY];
 
-    console.log(x, y)
 
-    if (x > 100){
-        x = 100
-    } else if (x < -100) {
-        x = -100
+    if (this !== e.target) {
+        x = x + e.target.offsetLeft;
+        y = y + e.target.offsetTop;
     }
 
-    if (y > 100) {
-        y = 100
-    } else if ( y < -100) {
-        y = -100
-    }
+    const xWalk = Math.round((x/ wrapperWidth * walk) - (walk / 2));
+    const yWalk = Math.round((y/ wrapperHeight * walk) - (walk / 2));
 
-    h1.style.textShadow = `${x}px ${y}px #FF0000`
+    h1.style.textShadow = `
+    ${xWalk}px ${yWalk}px 0 #F08080,
+    ${xWalk * -1}px ${yWalk}px 0 #33FFD4,
+    ${yWalk}px ${xWalk* -1}px 0 #33C7FF,
+    ${yWalk * -1}px ${xWalk}px 0 #9633FF
+    `
 
 }
 
 
-document.addEventListener('mousemove', mouseTracker)
+wrapper.addEventListener('mousemove', mouseTracker)

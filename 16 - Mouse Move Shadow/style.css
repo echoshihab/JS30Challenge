@@ -10,4 +10,10 @@ h1 {
 
 }
 
-/* text-shadow: 2px 2px 8px #FF0000; */
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
