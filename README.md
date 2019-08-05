@@ -50,8 +50,11 @@ Watched the video and attempted this on my own, going back to videos where I had
 the challenges Wes Bos provided at the end
 
 ### Day 16: Mouse Move shadow
-Watched the completed solution and attempted this on my own. Completed text shadow effect, but it looked glitch. After watching the video, I added the event listener to parent element instead of document and made sure the inside elment didn't interfere with pixel measurements
-following the Wes's logic.
+Watched the completed solution and attempted this on my own. Completed text shadow effect, but it looked glitchy. After watching the video, I added the event listener to parent element instead of document and made sure the inside elment didn't interfere with pixel measurements
+following  Wes's logic.
 
 ### Day 17: Sorted Band names with Articles
 Was able to solve this challenge on my own. Ran into a bit of a problem trying to add to much to the sort function. Separating the function to deal with the articles was the key to the solution.
+
+### Day 18: Add up times with reduce
+used the provided starter file for this one and solved the problem on my own.
