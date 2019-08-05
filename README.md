@@ -57,4 +57,7 @@ following  Wes's logic.
 Was able to solve this challenge on my own. Ran into a bit of a problem trying to add to much to the sort function. Separating the function to deal with the articles was the key to the solution.
 
 ### Day 18: Add up times with reduce
-used the provided starter file for this one and solved the problem on my own.
+used the provided starter file and was able to solve this on my own with map and reduce
+
+### Day 19: Fun with Webcam
+worked along wes bos for this challenge. Had to make a minor change and replace the now depreciated createObjectURL syntax with srcObject (see - https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
