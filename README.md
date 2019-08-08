@@ -61,3 +61,9 @@ used the provided starter file and was able to solve this on my own with map and
 
 ### Day 19: Fun with Webcam
 worked along wes bos for this challenge. Had to make a minor change and replace the now depreciated createObjectURL syntax with srcObject (see - https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
+
+### Day 20: Speech Recognition
+worked along wes bos and solved the challenge.
+
+### Day 21: Geolocation
+Used the starter files and followed along the geolocation video to solve this challenge
