@@ -67,3 +67,6 @@ worked along wes bos and solved the challenge.
 
 ### Day 21: Geolocation
 Used the starter files and followed along the geolocation video to solve this challenge
+
+### Day 22: Follow along links
+Followed along the video to solve the challenge
