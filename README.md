@@ -12,13 +12,13 @@ Recreated starter files + solved the issue with clock hands rewinding to startin
 Recreated the starter files + solved the problem
 
 ### Day 4: Array Cardio 1 : Completed
-the starter files for this javascript only exercise.
+used the starter files for this javascript only exercise.
 
 ### Day 5: Flex Panels Gallery: Completed
 Recreated starter files + Solved challenge (used background colors instead of images for panels)
 
 ### Day 6: Ajax type ahead: Completed
-Completed this excercise with pokemon data instead. I used JSON data from - [Pokedex] (https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/pokedex.json) . Completed the exercise with slighltly modified logic since the data I used had nested arrays.
+Completed this exercise with pokemon data instead. I used JSON data from - [Pokedex] (https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/pokedex.json) . Completed the exercise with slighltly modified logic since the data I used had nested arrays.
 
 ### Day 7:Array Cardio 2: Completed
 Used the starter files for this javascript only exercise
@@ -63,10 +63,13 @@ used the provided starter file and was able to solve this on my own with map and
 worked along wes bos for this challenge. Had to make a minor change and replace the now depreciated createObjectURL syntax with srcObject (see - https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
 
 ### Day 20: Speech Recognition
-worked along wes bos and solved the challenge.
+Done
 
 ### Day 21: Geolocation
-Used the starter files and followed along the geolocation video to solve this challenge
+Done
 
 ### Day 22: Follow along links
-Followed along the video to solve the challenge
+Done
+
+### Day 23: Speech Synthesis
+Done
