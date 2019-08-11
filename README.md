@@ -62,6 +62,8 @@ used the provided starter file and was able to solve this on my own with map and
 ### Day 19: Fun with Webcam
 worked along wes bos for this challenge. Had to make a minor change and replace the now depreciated createObjectURL syntax with srcObject (see - https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
 
+For rest of these lessons, I followed along the video w/ starter files to solve the challenges:
+
 ### Day 20: Speech Recognition
 Done
 
@@ -72,4 +74,7 @@ Done
 Done
 
 ### Day 23: Speech Synthesis
+Done
+
+### Day 24: Sticky Nav
 Done
