@@ -78,3 +78,6 @@ Done
 
 ### Day 24: Sticky Nav
 Done
+
+### Day 25: Event capture, propagation, bubbling and once
+Done
