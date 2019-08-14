@@ -81,3 +81,6 @@ Done
 
 ### Day 25: Event capture, propagation, bubbling and once
 Done
+
+### Day 26: Stripe follow along NAV
+Done
